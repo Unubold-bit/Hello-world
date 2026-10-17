@@ -1,6 +1,12 @@
 from tkinter import *
 
 window = Tk()
+window.title("Learning labels")
+
+photo = PhotoImage(file='instagram.png')
+
+window.iconphoto(True, photo)
+
 
 label = Label(window,
                text="Hello",
@@ -9,7 +15,9 @@ label = Label(window,
                    bg='black', relief=RAISED,
                      bd=10, 
                      padx=20, 
-                     pady=20)
+                     pady=20, 
+                     image=photo,
+                     compound='bottom')
 #label.place(x=100, y=100)
 label.pack()
 
