@@ -1,0 +1,44 @@
+.btn {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    border-radius: 8px;
+    transistion: background-color 2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: rgb(236, 95, 255);
+}
+
+.btn:active {
+    background-color: rgb(255, 53, 53);
+    transform: scale(1.15);
+    transition: background-color 0.1s ease, transform 0.1s ease; 
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    color:aqua;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 10px;
+    color: white;
+}
+
+.too {
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(239, 227, 227);
+}

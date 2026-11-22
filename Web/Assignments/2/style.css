@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 96, 96);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px 15px;
+}
+
+.about {
+    width: 300px;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.real-box {
+    width: 340px;
+    background-color: rgb(60, 138, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px -5px rgba(215, 239, 3, 0.9);
+}
+
+.button-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.prev-btn,
+.next-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 121, 255);
+    border: 1px solid rgb(101, 101, 216);
+    border-radius: 6px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.random-btn {
+    margin-bottom: 10px;
+    color: rgb(53, 121, 255);
+    background-color: rgb(175, 174, 177);
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
